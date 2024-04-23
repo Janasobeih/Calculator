@@ -11,7 +11,7 @@ public class Calculation {
 int id;
 float num1;
 float num2;
-String op;
+String operation;
 float result;
 public Calculation() 
 {}
@@ -28,11 +28,11 @@ public float getNum2() {
 public void setNum2(float num2) {
 	this.num2 = num2;
 }
-public String getOp() {
-	return op;
+public String getOperation() {
+	return operation;
 }
-public void setOp(String op) {
-	this.op = op;
+public void setOperation(String operation) {
+	this.operation = operation;
 }
 public float getResult() {
 	return result;
