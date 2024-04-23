@@ -29,7 +29,7 @@ public class CalculationService
 	public Response Calculate(Calculation c)
 	{
 		entityManager.persist(c);
-		String operation = c.getOp();
+		String operation = c.getOperation();
 		float N1 = c.getNum1();
 		float N2 = c.getNum2();
 		if (operation.equals("+")) 
