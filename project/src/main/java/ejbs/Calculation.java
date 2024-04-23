@@ -9,24 +9,24 @@ public class Calculation {
 @Id
 @GeneratedValue(strategy=GenerationType.IDENTITY)
 int id;
-float num1;
-float num2;
+float number1;
+float number2;
 String operation;
 float result;
 public Calculation() 
 {}
 
-public float getNum1() {
-	return num1;
+public float getNumber1() {
+	return number1;
 }
-public void setNum1(float num1) {
-	this.num1 = num1;
+public void setNumber1(float number1) {
+	this.number1 = number1;
 }
-public float getNum2() {
-	return num2;
+public float getNumber2() {
+	return number2;
 }
-public void setNum2(float num2) {
-	this.num2 = num2;
+public void setNumber2(float number2) {
+	this.number2 = number2;
 }
 public String getOperation() {
 	return operation;
