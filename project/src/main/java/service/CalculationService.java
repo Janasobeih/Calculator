@@ -30,8 +30,8 @@ public class CalculationService
 	{
 		entityManager.persist(c);
 		String operation = c.getOperation();
-		float N1 = c.getNum1();
-		float N2 = c.getNum2();
+		float N1 = c.getNumber1();
+		float N2 = c.getNumber2();
 		if (operation.equals("+")) 
 		{
 			r.Result = N1 + N2;
